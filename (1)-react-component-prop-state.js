@@ -7,21 +7,20 @@ const Subheading = (props) =>
 
 class SubheadingWithState extends React.Component
 {
-	state = { numOfDay: 99 };
+  	state = { numOfDay: 99 };
 
-  handleClickEvent = () =>
+  	handleClickEvent = () =>
 	{
 		this.setState((prevState) => ({ numOfDay: prevState.numOfDay - 1 }));
-  };
+  	};
 
 	render()
-  {
+  	{
   	return (
-      <h3 onClick={this.handleClickEvent}>
-        Counting down {this.state.numOfDay} days to Annabelle's birthday
-      </h3>
-    );
-  }
+      		<h3 onClick={this.handleClickEvent}>
+        		Counting down {this.state.numOfDay} days to Annabelle's birthday
+      		</h3>
+    	)};
 }
 
 //ReactDOM.render(<Subheading title="Hi Annabelle" />, mountNode);
