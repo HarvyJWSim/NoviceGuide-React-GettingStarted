@@ -1,2 +1,2 @@
-# NoviceGuide-React-GettingStarted
-Let's Start Learning React! ~ 20 min. novice guide
+# 20 min. novice guide - Let's Start Learning React!
+(in development)
