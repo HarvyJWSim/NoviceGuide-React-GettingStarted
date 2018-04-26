@@ -12,8 +12,8 @@ class SubheadingWithState extends React.Component {
   	this.setState((prevState) => ({ numOfDay: prevState.numOfDay - 1 }));
   };
 
-	render() {
-  	return (
+  render() {
+    return (
       <h3 onClick={this.handleClickEvent}>
         Counting down {this.state.numOfDay} days to Annabelle birthday
       </h3>
