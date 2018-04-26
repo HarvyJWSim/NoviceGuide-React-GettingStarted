@@ -18,7 +18,7 @@ class SubheadingWithState extends React.Component
   	{
   	return (
       		<h3 onClick={this.handleClickEvent}>
-        		Counting down {this.state.numOfDay} days to Annabelle's birthday
+        		Counting down {this.state.numOfDay} days to Annabelle birthday
       		</h3>
     	)};
 }
