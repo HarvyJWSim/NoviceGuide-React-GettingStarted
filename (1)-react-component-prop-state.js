@@ -1,6 +1,7 @@
+// Create Component and Function
 const Subheading = (props) => {
-	return (
-  	<h3>{props.title}</h3>
+  return (
+    <h3>{props.title}</h3>
   );
 };
 
