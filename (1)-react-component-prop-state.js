@@ -17,7 +17,8 @@ class SubheadingWithState extends React.Component {
       <h3 onClick={this.handleClickEvent}>
         Counting down {this.state.numOfDay} days to Annabelle birthday
       </h3>
-  )};
+    )
+  };
 }
 
 //ReactDOM.render(<Subheading title="Hi Annabelle" />, mountNode);
