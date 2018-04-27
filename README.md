@@ -17,6 +17,7 @@ This guide serves as the fundamental resources which introduce the fundamentals 
 - Understand the fundamentals of React.
 - You can copy the code snippet from this repository and paste it on [JS Complete Playground](https://jscomplete.com/repl/) and just run your code in the browser! 
 > You are highly recommended to explore [Official Tutorial by React](https://reactjs.org/tutorial/tutorial.html) to have a better understanding on how react works. 
+
 > I personally went through the video tutorials from Pluralsight and the resources uploaded here are my examples that I code from scratch for your reference.
 <br>
 
