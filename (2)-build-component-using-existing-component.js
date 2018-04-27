@@ -1,16 +1,16 @@
 class Give extends React.Component {	
   render() {
     return (
-      <button>
+      <button onClick={this.props.onClickFunction}>
         Give present
       </button>
     );
   };
 }
 
-const Outcome = (props) => {return (<h2>Annabelle says thanks</h2>)};
+const Outcome = (props) => {return (<h2>Annabelle says thanks receiving {props.numOfPresents} presents</h2>)};
 
-class GivePresent extends React.Component {
+class PresentCeremony extends React.Component {
   state = { numOfPresents: 0 };
   
   addPresentCount = () => {
@@ -22,12 +22,13 @@ class GivePresent extends React.Component {
   render() {
     return (
       <div> 
-        <Give />
-        <Outcome />
+        <Give onClickFunction={this.addPresentCount}/>
+        <Outcome numOfPresents={this.state.numOfPresents}/>
       </div>
     )
   }
 }
 
-ReactDOM.render(<GivePresent/>, mountNode);
+ReactDOM.render(<PresentCeremony/>, mountNode);
+
 
