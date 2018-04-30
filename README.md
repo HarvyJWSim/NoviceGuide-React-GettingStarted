@@ -1,4 +1,4 @@
-# 20 min. novice guide - Let's Start Learning React!
+# 40 min. novice guide - Let's Start Learning React!
 (in development)
 
 ## What is React?
