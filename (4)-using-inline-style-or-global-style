@@ -1,0 +1,18 @@
+const PresentWithInLineStyle = (props) => {
+  return (
+    <div style={{fontSize: '1.25em', fontWeight: 'bold'}}>
+      Hello from Anabelle
+    </div>
+  )
+}
+
+const PresentWithGLobalStyle = (props) => {
+  return (
+    <div className="redStyle">
+      Goodbye from Anabelle
+    </div>
+  )
+}
+
+ReactDOM.render(<PresentWithInLineStyle />, mountNode);
+//ReactDOM.render(<PresentWithGLobalStyle />, mountNode);
