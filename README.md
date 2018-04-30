@@ -22,7 +22,7 @@ This guide serves as the fundamental resources which introduce the fundamentals 
 
 ## Checklist
 Make sure the following are installed on your device before starting this guide:
-- (React Developer Tools (Chrome Web Store))[https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related?hl=en]
+- [React Developer Tools from Chrome Web Store](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi/related?hl=en)
 <br>
 
 ## Content
