@@ -1,6 +1,6 @@
 class Give extends React.Component {	
-	givePresent = () => {
-  	this.props.onClickFunction(this.props.presentCount);
+  givePresent = () => {
+  this.props.onClickFunction(this.props.presentCount);
   };
   
   render() {
