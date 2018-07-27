@@ -1,5 +1,4 @@
 # 40 min. novice guide - Let's Start Learning React!
-(in development)
 
 ## What is React?
 [React](https://reactjs.org/), a JavaScript library used to build user interface in the means of rendering components based on what type of states and data you pass to it. Every properties and behaviours of a specific component are encapsulated inside the component itself.
