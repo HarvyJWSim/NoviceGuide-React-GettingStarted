@@ -1,23 +1,23 @@
 class Give extends React.Component {	
   givePresent = () => {
-  this.props.onClickFunction(this.props.presentCount);
+      this.props.onClickFunction(this.props.presentCount);
   };
   
   render() {
   	return (
-    	<button onClick={this.givePresent}>
-      	Give {this.props.presentCount} present
-      </button>
-    );
+    	    <button onClick={this.givePresent}>
+      	        Give {this.props.presentCount} present
+            </button>
+        );
   };
 }
 
 const Outcome = (props) => {return (<h2>Annabelle says thanks receiving {props.numOfPresents} presents</h2>)};
 
 class PresentCeremony extends React.Component {
-	state = { numOfPresents: 0 };
+    state = { numOfPresents: 0 };
   
-  addPresentCount = (presentCount) => {
+    addPresentCount = (presentCount) => {
   	this.setState((prevState) => ({
     	numOfPresents: prevState.numOfPresents + presentCount 
     }));
