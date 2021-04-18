@@ -25,11 +25,11 @@ class PresentCeremony extends React.Component {
   
   render() {
   	return (
-    	<div> 
-      	<Give presentCount={1} onClickFunction={this.addPresentCount}/>
-        <Give presentCount={2} onClickFunction={this.addPresentCount}/>
-        <Outcome numOfPresents={this.state.numOfPresents}/>
-      </div>
+    	    <div> 
+      	        <Give presentCount={1} onClickFunction={this.addPresentCount}/>
+                <Give presentCount={2} onClickFunction={this.addPresentCount}/>
+                <Outcome numOfPresents={this.state.numOfPresents}/>
+           </div>
     )
   }
 }
